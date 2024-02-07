@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 
 import SmartNavLink from "../components/SmartNavLink";
 
-import { SOURCE_CODE, TASK_1, TASK_2 } from "../utils/constants";
+import { TASK_1, TASK_2, SOURCE_CODE } from "../utils/constants";
 
 
 const Layout = () => {
