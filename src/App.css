@@ -3,7 +3,6 @@
 .app-navbar {
   padding: 13px;
   background-color: #1c1c1c;
-  font-family: 'Instrument Sans', sans-serif;
 
   & ul {
     display: flex;
@@ -49,25 +48,21 @@ section.client-testimonials {
     color: #f34d33; 
     background: linear-gradient(1turn,#F1F4F9 4.5%,#ececec 78.5%);
     border: 1px solid #c4c4c4;
-    font-family: 'Instrument Sans', sans-serif;
   }
 
   & h1 {
-    font-family: 'Instrument Sans', sans-serif;
     font-size: 3.625rem;
     line-height: 4.5rem;
     font-weight: 700;
   }
 
   & h4.testimonial-text {
-    font-family: 'Instrument Sans', sans-serif;
     font-size: 2rem;
     font-weight: 500;
     line-height: 3.5rem;
   }
 
   & .active-testimonial {
-    font-family: 'Instrument Sans', sans-serif;
 
     & .designation,
     & .work {
@@ -153,7 +148,6 @@ section.client-testimonials {
 
   & h1 {
     text-align: center;
-    font-family: 'Instrument Sans', sans-serif;
     font-size: 5rem;
   }
 }
@@ -166,7 +160,6 @@ footer {
   text-align: center;
   background-color: #1c1c1c;
   color: #FFF;
-  font-family: 'Instrument Sans', sans-serif;
   font-size: 1.25rem;
   @media (max-width: 575px) {
     font-size: 1rem;
@@ -185,7 +178,6 @@ footer {
 
   & h1 {
     text-align: center;
-    font-family: 'Instrument Sans', sans-serif;
     font-size: 7rem;
   }
 }
