@@ -13,7 +13,7 @@ import { TASK_1, TASK_2, PAGE404 } from './utils/constants';
 
 function App() {
   return (
-    <HashRouter basename=''>
+    <HashRouter basename="">
       <Routes>
         <Route path={TASK_1.pathname} element={<Layout/>}>
           <Route index element={<Task1/>}/>
