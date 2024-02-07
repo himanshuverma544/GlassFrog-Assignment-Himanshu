@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 
 import SmartNavLink from "../components/SmartNavLink";
 
-import { TASK_1, TASK_2 } from "../utils/constants";
+import { SOURCE_CODE, TASK_1, TASK_2 } from "../utils/constants";
 
 
 const Layout = () => {
@@ -19,6 +19,11 @@ const Layout = () => {
             <SmartNavLink
               path={TASK_2.pathname}
               title={TASK_2.title}
+            />      
+            <SmartNavLink
+              path={SOURCE_CODE.pathname}
+              title={SOURCE_CODE.title}
+              target="_blank"
             />       
           </ul>
         </nav>

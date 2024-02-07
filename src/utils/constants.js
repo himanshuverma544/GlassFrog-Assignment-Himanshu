@@ -8,6 +8,11 @@ export const TASK_2 = {
   pathname: "/task2"
 };
 
+export const SOURCE_CODE = {
+  title: "Source Code ^",
+  pathname: "https://github.com/himanshuverma544/Glassfrog-Assignment-Himanshu/"
+}
+
 export const PAGE404 = {
   pathname: "*"
 };
