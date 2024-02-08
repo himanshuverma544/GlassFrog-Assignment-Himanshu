@@ -1,14 +1,11 @@
-const Avatar = ({ className = "avatar", src, alt, size = 50, dataIndex, onClick}) => {
+const Avatar = ({ className = "avatar", src, alt, size = 50, onClick}) => {
 
   return (
     <div
       className={className}
-      data-index={dataIndex}
       style={{
         width: size,
         height: size,
-        borderRadius: '50%',
-        overflow: 'hidden',
       }}
       onClick={onClick}
     >
