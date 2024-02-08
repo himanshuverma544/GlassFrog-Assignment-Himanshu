@@ -36,6 +36,7 @@
 /* TASK 1 - TESTIMONIALS */
 
 section.client-testimonials {
+  width: 100%;
   padding: calc(1.5625vw + 30px);
   margin: 6rem 0;
   background-color: #fafafa;
