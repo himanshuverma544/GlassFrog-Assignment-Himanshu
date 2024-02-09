@@ -4,8 +4,8 @@ import { useState, useEffect, useCallback } from "react";
 
 import Avatar from "../components/avatar";
 
-import ArrowLeft from "../assets/icons/arrow-left.svg";
-import ArrowRight from "../assets/icons/arrow-right.svg";
+import ArrowLeft from "../assets/task1/icons/arrow-left.svg";
+import ArrowRight from "../assets/task1/icons/arrow-right.svg";
 
 import { CLIENTS } from "../utils/constants";
 
@@ -61,28 +61,28 @@ const Task1 = () => {
 
   return (
     <section className="client-testimonials">
-      <Container className="d-flex flex-column justify-content-center align-items-center">
-        <div className="master-heading rounded-pill px-3 py-1">
+      <Container className="client-testimonials-cont d-flex flex-column justify-content-center align-items-center">
+        <div className="master-heading rounded-pill px-3 py-1 mb-3">
           <span>Client Testimonials</span>
         </div>
         <h1 className="text-center my-3">Voices that prove our excellence</h1>
-        <div className="testimonial-display-cont d-flex justify-content-between">
-          <Button className="mb-5" color="link" onClick={onClickLeftArrow}>
+        <div className="testimonial-display-cont d-flex flex-wrap justify-content-between">
+          <Button className="left-arrow-btn mb-5" color="link" onClick={onClickLeftArrow}>
             <img src={ArrowLeft} alt="arrow-left"/>
           </Button>
           <h4 className="testimonial-text text-center my-2 lh-base">
             {CLIENTS[intervalIndex]?.testimonial}
           </h4>
-          <Button className="mb-5" color="link" onClick={onClickRightArrow}>
+          <Button className="right-arrow-btn mb-5" color="link" onClick={onClickRightArrow}>
             <img src={ArrowRight} alt="arrow-right"/>
           </Button>
         </div>
-        <div className="testimonials-slide d-flex gap-5 my-4">
+        <div className="testimonials-slide d-flex justify-content-center flex-wrap flex-sm-nowrap gap-5 my-4">
           {Array.from({ length: 7 }, (_, index) => (
             index === 3 ? (
               <div 
-                className="active-testimonial d-flex gap-3"
                 key={index}
+                className="active-testimonial w-100 d-flex justify-content-center gap-3"
               >
                 <Avatar
                   className={`avatar avatar-${index} mt-2`}
@@ -105,8 +105,8 @@ const Task1 = () => {
               </div> 
             ) : (
               <Avatar
-                className={`avatar avatar-${index} mt-2`}
                 key={index} 
+                className={`avatar avatar-${index} mt-2`}
                 src={CLIENTS[getIndex(index)]?.avatar} 
                 alt={CLIENTS[getIndex(index)]?.name} 
                 onClick={() => onAvatarClick(getIndex(index))}

@@ -1,6 +1,6 @@
-import Client1 from "../assets/client-profile-pictures/client1.jpg";
-import Client2 from "../assets/client-profile-pictures/client2.png";
-import Client3 from "../assets/client-profile-pictures/client3.jpg";
+import Client1 from "../assets/task1/client-profile-pictures/client1.jpg";
+import Client2 from "../assets/task1/client-profile-pictures/client2.png";
+import Client3 from "../assets/task1/client-profile-pictures/client3.jpg";
 
 
 export const TASK_1 = {
