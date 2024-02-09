@@ -113,9 +113,7 @@ const Task2 = () => {
     const container = document.querySelector('.scroll-cont');
 
     const handleScroll = event => {
-
-      event.preventDefault();
-
+      
       if (event.wheelDeltaY < 0 && progress.current < 100) {
         progress.current++;  // on scroll-down progress increases
       }
@@ -129,6 +127,8 @@ const Task2 = () => {
         return;
       }
       
+      event.preventDefault();
+
       setProgressBarValue(progress.current);
 
       if (progress.current % divider === 0) {
