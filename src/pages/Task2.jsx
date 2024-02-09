@@ -197,10 +197,7 @@ const Task2 = () => {
                           index % 2 === 0 ? (
                             <li 
                               key={index}
-                              className="list"
-                              style={{
-                                backgroundImage: `url(${tabs[activeTabIndex].listIcon})`
-                              }}
+                              className={`list list-${(tabs[activeTabIndex].name.toLowerCase())}`}
                             >
                               {list}
                             </li>
@@ -216,10 +213,7 @@ const Task2 = () => {
                           index % 2 !== 0 ? (
                             <li 
                               key={index}
-                              className="list"
-                              style={{
-                                backgroundImage: `url(${tabs[activeTabIndex].listIcon})`
-                              }}
+                              className={`list list-${(tabs[activeTabIndex].name.toLowerCase())}`}
                             >
                               {list}
                             </li>
@@ -236,10 +230,7 @@ const Task2 = () => {
                       tabs[activeTabIndex].lists.map((list, index) => 
                         <li 
                           key={index}
-                          className="list"
-                          style={{
-                            backgroundImage: `url(${tabs[activeTabIndex].listIcon})`
-                          }}
+                          className={`list list-${(tabs[activeTabIndex].name.toLowerCase())}`}
                         >
                           {list}
                         </li>

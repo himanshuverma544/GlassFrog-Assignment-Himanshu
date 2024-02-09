@@ -250,6 +250,26 @@ section.scroll {
         background-repeat: no-repeat;
         background-position: left center;
       }
+
+      .list-strategize {
+        background-image: url('./assets/task2/icons/yellow-arrow.svg');
+      }
+
+      .list-design {
+        background-image: url('./assets/task2/icons/blue-arrow.svg');
+      }
+
+      .list-build {
+        background-image: url('./assets/task2/icons/green-arrow.svg');
+      }
+
+      .list-secure {
+        background-image: url('./assets/task2/icons/red-arrow.svg');
+      }
+
+      .list-support {
+        background-image: url('./assets/task2/icons/indigo-arrow.svg');
+      }
     }
   }
 }
