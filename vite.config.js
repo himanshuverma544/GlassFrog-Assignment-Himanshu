@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react-swc'
 
 export default defineConfig({
   
-  base: "/Glassfrog-Assignment-Himanshu/",
+  base: "/GlassFrog-Assignment-Himanshu/",
 
   plugins: [react()],
 });
