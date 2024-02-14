@@ -21,10 +21,11 @@
       }
 
       & a {
+        text-decoration: none;
         color: #FFF;
 
         &.active {
-          text-decoration: underline !important;
+          text-decoration: underline;
           text-underline-offset: 7px
         }
       }
@@ -279,12 +280,21 @@ section.scroll {
 
 footer {
   padding: 25px;
-  text-align: center;
   background-color: #1c1c1c;
-  color: #FFF;
-  font-size: 1.25rem;
-  @media (max-width: 575px) {
-    font-size: 1rem;
+  
+  & p {
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 1.25rem;
+    color: #FFF;
+    @media (max-width: 575px) {
+      font-size: 1rem;
+    }
+
+    & a {
+      color: #FFF;
+      text-decoration: none;
+    }
   }
 }
 

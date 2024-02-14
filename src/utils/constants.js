@@ -22,6 +22,15 @@ export const PAGE404 = {
   pathname: "*"
 };
 
+export const COMPANY = {
+  name: "GlassFrog Technologies ",
+  pathname: "https://glassfrogtech.com/"
+}
+
+export const DEVELOPER = {
+  name: " Himanshu Verma",
+  pathname: "https://linktr.ee/himanshuverma544"
+}
 
 export const CLIENTS = [
   {

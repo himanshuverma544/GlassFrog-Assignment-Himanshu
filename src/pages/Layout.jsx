@@ -1,8 +1,8 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
 
 import SmartNavLink from "../components/SmartNavLink";
 
-import { TASK_1, TASK_2, SOURCE_CODE } from "../utils/constants";
+import { TASK_1, TASK_2, SOURCE_CODE, DEVELOPER, COMPANY } from "../utils/constants";
 
 
 const Layout = () => {
@@ -34,7 +34,21 @@ const Layout = () => {
       </main>
     
       <footer>
-        GlassFrog Technologies company assignment completed by Himanshu Verma
+        <p>
+          <Link
+            to={COMPANY.pathname}
+            target="_blank"
+          >
+            {COMPANY.name}
+          </Link>
+                 company assignment completed by     
+          <Link
+            to={DEVELOPER.pathname}
+            target="_blank"
+          >
+            {DEVELOPER.name}
+          </Link>
+        </p>
       </footer>
     </>
   );
