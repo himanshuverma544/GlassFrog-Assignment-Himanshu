@@ -34,7 +34,7 @@ const Layout = () => {
       </main>
     
       <footer>
-        Glassfrog Assignment by Himanshu Verma
+        GlassFrog Technologies Company Assignment by Himanshu Verma
       </footer>
     </>
   );
