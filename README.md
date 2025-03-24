@@ -1,6 +1,6 @@
 
 # Design
-- [Testimonials and Scroll Sections](https://moai-rose.vercel.app/#support)
+- [MOAI Website Inspired](https://moai-rose.vercel.app/#support)
 
 # Tasks
 - [Testimonials Section](https://himanshuverma544.github.io/GlassFrog-Assignment-Himanshu/#/)
