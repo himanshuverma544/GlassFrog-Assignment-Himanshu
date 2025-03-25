@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react-swc'
 
 export default defineConfig({
   
-  base: "/GlassFrog-Assignment-Himanshu/",
+  base: "/MOAI-Website-Components-Clone/",
 
   plugins: [react()],
 });
